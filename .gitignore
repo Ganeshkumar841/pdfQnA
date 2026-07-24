@@ -1,0 +1,12 @@
+# Virtual Environment
+venv/
+
+# Environment Variables (API Keys)
+.env
+
+# Cache & Python build files
+__pycache__/
+*.pyc
+
+# Local vector store (Optional - omit if you don't want to publish local embeddings)
+faiss_index/
